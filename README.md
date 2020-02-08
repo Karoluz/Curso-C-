@@ -1,4 +1,4 @@
-# Curso-C-
+# Curso-C++
 Ejercicios realizados en el curso de C++
 
 Realizados en DEV C++ Version 5.11
