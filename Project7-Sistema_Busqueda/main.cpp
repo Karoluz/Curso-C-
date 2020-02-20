@@ -34,7 +34,7 @@ int main()
 	int conta_coincide = 0;
 	bool se_encontro_empleado = false;
 		
-	while (contador_emp < 5)
+	while (contador_emp < 20)
 	{
 		/* Introduciendo 20 los empleados*/
 		cout<<"Introduce el numero del empleado (1 - 20) : ";
@@ -211,7 +211,7 @@ int main()
 			case 4:
 				{
 					cout<<"Mostrando empleados por numero de empleado ascendente: "<<endl;
-					for (i = 0; i < 5; i++)
+					for (i = 0; i < 20; i++)
 					{
 						cout<<i+1<<" ";
 						cout<<empleado[i]<<endl;
@@ -221,7 +221,7 @@ int main()
 			case 5:
 				{
 					cout<<"Mostrando empleados por numero de empleado descendente: "<<endl;
-					for (i = 4; i >= 0; i--)
+					for (i = 19; i >= 0; i--)
 					{
 						cout<<i+1<<" ";
 						cout<<empleado[i]<<endl;
