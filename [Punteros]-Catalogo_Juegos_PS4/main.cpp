@@ -63,7 +63,7 @@ ps4game_t *ptr_juegos = new ps4game_t[NUM_MAX_JUEGOS];
 /* Prototipo de la funciones a usar*/
 void mostrar_ficha_tecnica(int i);
 string Genero_a_Texto(int num_genero);
-void mostrar_ficha_tecnica(int i);
+
 /* Funciones del menu */
 void Funcion_Agregar();
 void Funcion_Consultar_Genero();
